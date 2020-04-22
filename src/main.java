@@ -35,8 +35,12 @@ public class main {
 		
 		int kokugo=70;
 		int sansu=75;
-		double heikin=((double)kokugo+(double)sansu)/2;
+		double heikin=(kokugo+sansu)/2.0;
 		System.out.println(heikin);
+		
+		int num1=3;
+		int num2=5;
+		System.out.println("足し算の結果は" + (num1 + num2));
 	}
 
 }
