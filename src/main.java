@@ -10,6 +10,13 @@ public class main {
 
 		double p=3.14;
 		System.out.println("円周率ハ" + p + "デス!");
+		
+		int a=20;
+		int b=a+5;
+		System.out.println(a);
+		System.out.println(b);
+		
+		System.out.println("C:\\に\"フォルダ\"を作成");
 	}
 
 }
