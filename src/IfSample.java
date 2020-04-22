@@ -13,14 +13,14 @@ public class IfSample {
 	
 	System.out.println("成績を入力してくだしゃい");
 	int num= new java.util.Scanner(System.in).nextInt();
-	if (num >= 80 && num <= 100) {
-		System.out.println("rank A");
-	}else if (num >= 60 && num < 80){
-		System.out.println("rank B");
-	}else if (num >= 0 && num < 60){
-		System.out.println("rank C");
-	}else {
+	if (num < 0 || num > 100) {
 		System.out.println("エラー");
+	}else if (num >= 80){
+		System.out.println("rank A");
+	}else if (num >= 60){
+		System.out.println("rank B");
+	}else {
+		System.out.println("rank C");
 	}
 	
 	}
