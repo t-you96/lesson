@@ -12,11 +12,31 @@ public class main {
 		System.out.println("円周率ハ" + p + "デス!");
 		
 		int a=20;
-		int b=a+5;
+		int b=a + 5;
 		System.out.println(a);
 		System.out.println(b);
 		
 		System.out.println("C:\\に\"フォルダ\"を作成");
+		
+		int num=10;
+		int amari=10 % 3;
+		System.out.println(amari);
+		
+		num+= 5;
+		System.out.println(num);
+		
+		num++;
+		System.out.println(num);
+		
+		double d=3;
+		int n= (int)d;
+		String s="ベスト" + 3;
+		System.out.println(n + s);
+		
+		int kokugo=70;
+		int sansu=75;
+		double heikin=((double)kokugo+(double)sansu)/2;
+		System.out.println(heikin);
 	}
 
 }
