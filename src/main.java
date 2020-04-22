@@ -9,7 +9,7 @@ public class main {
 		System.out.println("今日ハ" + month + "月" + day + "日デス");
 
 		double p=3.14;
-		System.out.println("円周率ハ" + p + "デス");
+		System.out.println("円周率ハ" + p + "デス!");
 	}
 
 }
