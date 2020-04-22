@@ -41,6 +41,23 @@ public class main {
 		int num1=3;
 		int num2=5;
 		System.out.println("足し算の結果は" + (num1 + num2));
+		
+		System.out.print("Northlondon ");
+		System.out.print("is ");
+		System.out.println("white");
+		
+		int m= Math.max(10, 20);
+		System.out.println(m);
+		
+		String age= "16";
+		int nAge = Integer.parseInt(age);
+		System.out.println("永遠の" + (nAge+1) + "歳");
+		
+		int r = new java.util.Random().nextInt(90);
+		System.out.println(r);
+		
+		int saikoro = new java.util.Random().nextInt(6) + 1;
+		System.out.println(saikoro);
 	}
 
 }
