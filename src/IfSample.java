@@ -4,23 +4,27 @@ public class IfSample {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 
-	int age=20;
-	if (age>=20) {
-		System.out.println("お酒を飲めます");
-	}else {
-		System.out.println("ジュースを飲みます");
-	}
 	
-	System.out.println("成績を入力してくだしゃい");
-	int num= new java.util.Scanner(System.in).nextInt();
-	if (num < 0 || num > 100) {
-		System.out.println("エラー");
-	}else if (num >= 80){
-		System.out.println("rank A");
-	}else if (num >= 60){
-		System.out.println("rank B");
-	}else {
-		System.out.println("rank C");
+	System.out.print("番号を入力してください");
+	int bango= new java.util.Scanner(System.in).nextInt();
+	
+	switch(bango) {
+	
+	  case 1:
+		System.out.println("コーラ");
+		break;
+		
+	  case 2:
+		System.out.println("コーヒー");
+		break;
+		
+	  case 3:
+		System.out.println("水");
+		break;
+		
+	  default:
+		System.out.println("ERROR");
+		break;
 	}
 	
 	}
