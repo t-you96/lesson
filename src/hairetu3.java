@@ -2,13 +2,6 @@
 public class hairetu3 {
 
 	public static void main(String[] args) {
-
-		//int型の配列 nums に 8,5,9,2,4 を入れる
-		//すべて表示
-		//合計値を表示
-		//5以上の個数を表示
-		//すべての要素を2倍に書き換え
-		//最大値を求める
 		
 		int[] nums = {8,5,9,2,4};
 		int sum=0;
@@ -29,10 +22,10 @@ public class hairetu3 {
 		}
 		
 		int max = nums[0];
-		for(int m : nums){
-	        if(max < m){
-	            max = m;
-	        }
+			for(int m : nums){
+				if(max < m){
+					max = m; 
+				}
 		}
 		System.out.println(max);//最大値を求める
 		
