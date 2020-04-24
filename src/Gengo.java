@@ -5,13 +5,15 @@ public class Gengo {
 		
 		System.out.println("1:昭和 2:平成 3:令和");
 		int gengonum = new java.util.Scanner(System.in).nextInt();
-		String gengo = getGengouName(gengonum);
-		System.out.print(gengo);
+		System.out.print(getGengouName(gengonum));
 		
 		int nen = new java.util.Scanner(System.in).nextInt();	
-		int seireki = getSeireki(gengonum,nen);
-		System.out.print(seireki);
 		
+		if (nen!=1) {
+			System.out.print(getGengouName(gengonum) + nen + "年は西暦" + getSeireki(gengonum,nen) + "年です。");
+		}else {
+			System.out.print(getGengouName(gengonum) + "元年は西暦" + getSeireki(gengonum,nen) + "年です。");
+		}
 	}
 		
 	public static int getSeireki(int gengou,int nen) {
