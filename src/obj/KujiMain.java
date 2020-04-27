@@ -21,6 +21,8 @@ public class KujiMain {
 		k1.show();
 		k2.show();
 		k3.show();
+		
+		System.out.println("合計金額は" + kc.money + "円");
 
 	}
 

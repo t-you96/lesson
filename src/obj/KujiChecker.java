@@ -16,8 +16,6 @@ public class KujiChecker {
 			k.result = "はずれ";
 		}
 
-		System.out.println("合計金額は" + money);
-
 	}
 
 }
