@@ -17,7 +17,7 @@ public class Seito {
 	}
 
 	public double heikin() {
-		double h = (kokugo + math + society) / 3;
+		double h = (kokugo + math + society) / 3.0;
 		return h;
 	}
 
