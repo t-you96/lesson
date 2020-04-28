@@ -7,6 +7,13 @@ public class Seito {
 	int math;
 	int society;
 
+	public Seito(String name,int kokugo,int math,int society) {
+		this.name = name;
+		this.kokugo = kokugo;
+		this.math = math;
+		this.society = society;
+	}
+
 	public void show() {
 		System.out.print(name + " 国語" + kokugo + "点 数学" + math + "点 社会" + society + "点" );
 	}
